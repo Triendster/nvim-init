@@ -1,10 +1,21 @@
-" This file lives online on my GitHub repository: https://github.com/Triendster/nvim-init.git
-" Pushing this file to the repository is done by running the following git
-" commands:
-" git add init.vim
-" git commit -m "Add init.vim"
-" git push origin master
-" Basic Settings
+" License: MIT
+" Description: This is my Neovim configuration file. It is written in
+" Vimscript and Lua. It is used to configure Neovim to my liking.
+" It includes plugins for syntax highlighting, autocompletion, colorschemes,
+" fuzzy finding, statusline, git integration, file explorer, LSP and more.
+" It also includes key mappings for LSP and other useful commands.
+" The plugins are managed by packer.nvim.
+" The colorscheme used is night-owl.
+" The file explorer used is nvim-tree.
+" The statusline used is lualine.
+" The LSP used is mason.nvim and mason-lspconfig.nvim.
+" The autocompletion used is nvim-cmp and LuaSnip.
+" The fuzzy finder used is telescope.nvim.
+" The git integration used is vim-fugitive.
+" The syntax highlighting used is nvim-treesitter.
+" The configuration file is written in Vimscript and Lua.
+" The key mappings are written in Vimscript.
+" The configuration file is written in init.vim.
 set number
 set relativenumber
 set tabstop=4
